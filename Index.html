@@ -14,23 +14,23 @@
     <!--Menu de Navegaciopn-->
     <nav class="navbar navbar-expand-lg bg-black bg-gradient position-sticky top-0 z-3">
       <div class="container-fluid">
-        <a class="navbar-brand text-primary fs-2 fw-bold tex" href="#">Hector</a>
+        <a class="navbar-brand text-primary fs-2 fw-bold tex" href="">Hector</a>
         <button class="navbar-toggler text-light bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="color collapse navbar-collapse flex-column flex-wrap align-content-end alit " id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
             <li class="nav-item">
-              <a class="nav-link active fs-5 text-light" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active fs-5 text-light" aria-current="page" href="/index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fs-5 text-light" aria-current="page" href="#">Porfolio</a>
+              <a class="nav-link active fs-5 text-light" aria-current="page" href="#porfolio">Porfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fs-5 text-light" aria-current="page" href="#">Sobre Mi</a>
+              <a class="nav-link active fs-5 text-light" aria-current="page" href="#sobremi">Sobre Mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fs-5 text-light" aria-current="page" href="#">Contacto</a>
+              <a class="nav-link active fs-5 text-light" aria-current="page" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -40,21 +40,20 @@
 <!--Secion 1-->
     <section class="section-uno d-flex flex-column justify-content-center align-items-center gap-4">
       <img class="rounded-circle" src="/images/perfil.jpg" alt="">
-        
-          <h2 class="txt text-primary loader loader-text"> Soy Desarrollador web full stack12345</h2>
+
+          <h2 class="txt">Soy Desarrollador web full stack</h2>
           <div class="button-btn d-flex justify-content-around gap-3 ">
-            <button class="button" type="button" >Porfolio</button>
-            <button class="button" type="button" >Contacto</button>
-            
+            <a href="#porfolio" class="button  text-decoration-none">Portafolio</a>
+            <a href="#contacto" class="button  text-decoration-none">Contacto</a>
           </div>
     </section>
     
 
     <!--Secion 2 proyectos-->
-    <section class="section-dos p-5 d-flex flex-column justify-content-center align-items-center" id="sobremi">
-     <h2 class="text-light text-center m-5 text-uppercase" >Porfolio</h2>
+    <section class="section-dos p-5 d-flex flex-column justify-content-center align-items-center" id="porfolio">
+     <h2 class="text-light text-center m-5 text-uppercase"  >Porfolio</h2>
 
-     <article class="cards d-flex flex-wrap m-5 gap-5 justify-content-center align-items-center  ">
+     <article class="cards d-flex flex-wrap m-5 gap-5 justify-content-center">
       
       <div class="card-1">
         <p class="heading text-uppercase ">Proximamente</p>
@@ -109,15 +108,15 @@ Proyectos-->
     </section>
 
  <!--Secion 3-->
-    <section class="section-tres d-flex justify-content-center align-items-center flex-wrap gap-4 bg-dark.bg-gradient" >
+    <section class="section-tres d-flex justify-content-center align-items-center flex-wrap gap-4 bg-dark.bg-gradient" id="sobremi" >
       <img class="rounded-circle loader-2" src="/images/perfil.jpg" alt="">
       <p class="parrafo text-light">Me apasiona el avance
         de la tecnología, la información y el conocimiento. También me considero una
         persona resolutiva, con buen ánimo y capaz de aprender muy fácilmente</p>
     </section>
 
- <!--Secion 4-->
-    <section class="skills d-flex justify-content-center d-flex justify-content-around align-items-center gap-4">
+ <!--Secion 4 skills-->
+    <section class="skills d-flex justify-content-center d-flex justify-content-around align-items-center gap-4 bg">
       <div>
         <img src="/images/Html-5.png" alt="">
       </div>
@@ -131,10 +130,7 @@ Proyectos-->
     </section>
     
 <!--Status-->
-
-    
- 
-  <footer class="d-flex justify-content-center">
+  <footer class="footer d-flex justify-content-center" id="contacto">
        <!--button 1-->
        <section class="d-flex justify-content-center d-flex justify-content-around align-items-center gap-4">
         <div class="tooltip-container">
