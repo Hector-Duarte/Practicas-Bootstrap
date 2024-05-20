@@ -15,11 +15,9 @@
 
 .section-dos{
   width: 100%;
-  min-height: 90vh;
+  min-height: 38vh;
   padding: 0 5%;
 }
-
-
 
 .section-uno img,.section-tres img{
 width: 380px;
@@ -37,7 +35,7 @@ height: 380px;
 
 .skills{
     width: 100%;
-    min-height: 45vh;
+    min-height: 30vh;
     padding: 0 5%;
 }
 
@@ -219,10 +217,19 @@ height: 380px;
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
+
+.whatsappSVG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009087;
+}
+  
+  
+  
   
 /*Texto en movimiento*/
 .txt{
- 
     background: linear-gradient(to right,#159957, #155799);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent  ;
@@ -349,7 +356,6 @@ height: 380px;
   font-size: 0px;
   color:#ffffff;
 }
-
 .card-1 p:last-child {
   color: #ffffff;
 }
