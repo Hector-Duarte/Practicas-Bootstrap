@@ -16,10 +16,15 @@
 
 .section-dos{
   width: 100%;
-  min-height: 90vh;
+  min-height: 43vh;
   padding: 0 5%;
 }
 
+.section-cuatro{
+  width: 100%;
+  min-height: 10vh;
+  padding: 0 5%;
+}
 .section-uno img,.section-tres img{
 width: 380px;
 height: 380px;
