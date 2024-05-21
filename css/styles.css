@@ -1,8 +1,8 @@
 /*fondos*/
-.menu {
+.menu{
     width: 100%;
     height: 10vh;
-    padding: 0 5%;
+    padding: 20 25%;
     background-color: red;
 }
 
@@ -31,8 +31,8 @@
   
 }
 .section-uno img,.section-tres img{
-width: 380px;
-height: 380px;
+width: 330px;
+height: 330px;
 }
 
 .section-uno button {
