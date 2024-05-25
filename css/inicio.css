@@ -1,6 +1,25 @@
- html{
-    background-color: #07080c;
+body, html {
+  height: 100%;
+  margin: 0;
 }
+.bg-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*******************************/
 
 .fondo{
     height: 90vh;
@@ -8,6 +27,7 @@
     justify-content: center;
     align-items: center;
 }
+
 /************************************/
     .svg-frame {
         position: relative;
