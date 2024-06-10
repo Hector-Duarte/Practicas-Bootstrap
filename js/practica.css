@@ -1,0 +1,55 @@
+html{
+ height: 100%;
+ background-color: rgb(19, 36, 37);
+
+}
+
+.buscar {
+    background-color: rgb(26, 68, 70);
+    height: 500px;
+    width: 900px;
+    transform: translate(0,-900px);
+    display: flex;
+    justify-content: center;
+    transition: transform 2s;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.boton {
+    background-color: chartreuse;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin: 5px;
+    transition: 1.5s;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+}
+
+.boton:hover {
+    background-color: crimson;
+}
+
+.movimiento {
+    transform: translate(0);
+    
+
+}
+
+.cerrar{
+    background-color: #854700;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+/* para que desaparezca el boton
+.none {
+    display: none;
+}
+*/

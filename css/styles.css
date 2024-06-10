@@ -29,17 +29,19 @@
 .section-cinco{
   min-height: 15vh;
   padding: 0 5%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column; /* Para alinear los botones en columna */
+  height: 100%;
   
 }
 
-.section-uno img{
-
- //////////////////////////////////////////
- ///////////////////////
- //////////////////
- ///////////////////////
- 
-}
 .image-perfil{
   width: 330px;
 }
@@ -88,7 +90,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(10%);
   padding: 10px;
   opacity: 0;
   pointer-events: none;
@@ -105,14 +107,14 @@
   padding: 10px;
   border: 1px solid rgba(11, 63, 95, 1);
 }
-
+/* ventana emergente de footer
 .tooltip-container:hover .tooltip {
   top: -150px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
-
+*/
 .icon {
   text-decoration: none;
   color: #fff;
@@ -400,6 +402,54 @@
 */
 .card-1:hover {
   transform: scale(1);
+}
+
+/*  Boton flotante 
+
+*/
+
+
+.buscar {
+  background-color: rgb(26, 68, 70);
+  transform: translate(0,-200px);
+  display: flex;
+  justify-content: center;
+  transition: transform 2s;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.boton {
+  background-color: chartreuse;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  margin: 5px;
+  transition: 1.5s;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+
+}
+
+.boton:hover {
+  background-color: crimson;
+}
+
+.movimiento {
+  transform: translate(0);
+  
+
+}
+
+.cerrar{
+  background-color: #854700;
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 
